@@ -395,7 +395,7 @@ namespace Tests_PR1_Save_the_Ocean
         {
             // Arrange
             SeaTurtle seaTurtle = new SeaTurtle("Leonardo", 1, "Tortuga Verda", 10, 20.5);
-            string expectedOutput = "El tractament aplicat ha reduït el GA fins al 10%. L’exemplar està recuperat i pot tornar al seu hàbitat. \r\nLa teva experiència ha augmentat en +45XP.\r\n";
+            string expectedOutput = "El tractament aplicat ha reduït el GA fins al 10%. L’exemplar està recuperat i pot tornar al seu hàbitat. \r\nLa teva experiència ha augmentat en +50XP.\r\n";
 
             // Act
             using (StringWriter sw = new StringWriter())
@@ -429,7 +429,7 @@ namespace Tests_PR1_Save_the_Ocean
         {
             // Arrange
             SeaBird seaBird = new SeaBird("Piolín", 1, "Albatros", 50, 100);
-            string expectedOutput = "El tractament aplicat ha reduït el GA fins al 50%. L’exemplar està recuperat i pot tornar al seu hàbitat. \r\nLa teva experiència ha augmentat en +45XP.\r\n";
+            string expectedOutput = "El tractament aplicat ha reduït el GA fins al 50%. L’exemplar està recuperat i pot tornar al seu hàbitat. \r\nLa teva experiència ha augmentat en +50XP.\r\n";
 
             // Act
             using (StringWriter sw = new StringWriter())
@@ -463,7 +463,7 @@ namespace Tests_PR1_Save_the_Ocean
         {
             // Arrange
             Cetacean cetacean = new Cetacean("Tony", 1, "Balena", 50, 100);
-            string expectedOutput = "El tractament aplicat ha reduït el GA fins al 50%. L’exemplar està recuperat i pot tornar al seu hàbitat. \r\nLa teva experiència ha augmentat en +45XP.\r\n";
+            string expectedOutput = "El tractament aplicat ha reduït el GA fins al 50%. L’exemplar està recuperat i pot tornar al seu hàbitat. \r\nLa teva experiència ha augmentat en +50XP.\r\n";
 
             // Act
             using (StringWriter sw = new StringWriter())

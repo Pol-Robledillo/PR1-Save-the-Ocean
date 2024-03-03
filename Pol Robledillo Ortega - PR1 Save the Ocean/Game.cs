@@ -8,7 +8,7 @@ namespace PR1_Save_the_Ocean
 {
     public class Game
     {
-        public static int successXP = 45;
+        public static int successXP = 50;
         public static int failureXP = 20;
         /// <summary>
         /// Mostra el títol del joc
