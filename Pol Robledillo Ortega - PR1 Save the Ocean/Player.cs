@@ -9,12 +9,12 @@ namespace PR1_Save_the_Ocean
     public class Player
     {
         public string? Name { get; set; }
-        public Occupation Occupation { get; set; }
+        public EOccupation Occupation { get; set; }
         public int Exp { get; set; }
         public Player(string name, int occupation, int exp)
         {
             this.Name = name;
-            this.Occupation = (Occupation)occupation;
+            this.Occupation = (EOccupation)occupation;
             this.Exp = exp;
         }
         public Player() { }

@@ -13,7 +13,7 @@ namespace PR1_Save_the_Ocean
         public Cetacean(string name, int superFamily, string species, int ga, double weight)
         {
             this.Name = name;
-            this.SuperFamily = (SuperFamily)superFamily;
+            this.SuperFamily = (ESuperFamily)superFamily;
             this.Species = species;
             this.GA = ga;
             this.Weight = weight;

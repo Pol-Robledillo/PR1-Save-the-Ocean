@@ -9,7 +9,7 @@ namespace PR1_Save_the_Ocean
     public abstract class AAnimal
     {
         public string? Name { get; set; }
-        public SuperFamily SuperFamily { get; set; }
+        public ESuperFamily SuperFamily { get; set; }
         public string? Species { get; set; }
         public int GA { get; set; }
         public double Weight { get; set; }

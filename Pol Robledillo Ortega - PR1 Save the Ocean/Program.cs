@@ -30,7 +30,7 @@ namespace PR1_Save_the_Ocean
                         Console.WriteLine();
                         Game.InsertNameMsg();
                         player.Name = Console.ReadLine();
-                        player.Occupation = (Occupation)occupacionOption;
+                        player.Occupation = (EOccupation)occupacionOption;
                         player.Exp = occupacionOption == 1 ? 45 : 80;
                         Console.Clear();
                     }
